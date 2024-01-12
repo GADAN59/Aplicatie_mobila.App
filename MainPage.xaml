@@ -10,30 +10,33 @@
             VerticalOptions="Center">
 
             <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                Source="dog.png"
+                SemanticProperties.Description="Un cățel drăguț"
                 HeightRequest="200"
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Hello, World!"
+                Text="Bun venit la DogSPA!"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
 
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+            <!-- DogSPA Details -->
+            <StackLayout Spacing="10">
+                <Label Text="DogSPA" FontAttributes="Bold" FontSize="28" HorizontalOptions="Center"/>
+                <Label Text="Descriere:" FontAttributes="Bold" FontSize="18"/>
+                <Label Text="DogSPA este locul ideal unde prietenii cu blană beneficiază de o experiență de înfrumusețare și relaxare de neuitat. Echipa noastră dedicată de specialiști în îngrijirea animalelor oferă servicii premium, de la băi spațioase cu șampoane de înaltă calitate până la tunsuri personalizate și îngrijire specializată a urechilor și unghiilor. Atmosfera noastră prietenoasă și atenția la detalii fac din DogSPA destinația preferată a prietenilor necuvântători în căutare de răsfăț și starea de bine. Cu programe personalizate și servicii de calitate, ne asigurăm că fiecare vizită la DogSPA este o experiență plăcută pentru toate raselor și dimensiunile. Vă așteptăm să descoperiți alături de noi un spațiu dedicat în totalitate bunăstării și îngrijirii animalelor de companie!" />
+                <Label Text="Data înființării:" FontAttributes="Bold" FontSize="18"/>
+                <Label Text="15.01.2024" />
+                <Label Text="Adresa:" FontAttributes="Bold" FontSize="18"/>
+                <Label Text="Cluj-Napoca, strada Teodor Mihali, nr. 58-60" />
+                <Label Text="Nr tel:" FontAttributes="Bold" FontSize="18"/>
+                <Label Text="0123456789" />
+                <Label Text="Program de lucru:" FontAttributes="Bold" FontSize="18"/>
+                <Label Text="L-V , 10:00 - 19:00" />
+                <Label Text="Adresă de email:" FontAttributes="Bold" FontSize="18"/>
+                <Label Text="dogspa@gmail.com" />
+            </StackLayout>
 
         </VerticalStackLayout>
     </ScrollView>

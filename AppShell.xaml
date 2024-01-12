@@ -6,9 +6,15 @@
     xmlns:local="clr-namespace:Aplicatie_mobila"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent
+            Title="DogSPA"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            />
 
+        <ShellContent
+            Title ="Prezentare"
+            ContentTemplate="{DataTemplate local:Prezentare}"
+            />
+    </TabBar>
 </Shell>
